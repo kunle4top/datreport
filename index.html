@@ -1,0 +1,1773 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	  <title>Datreport Portal</title>
+	  <meta charset="utf-8">
+	   	   <link rel="icon" type="image/x-icon" href="images/schimg.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Pritobella School" content="Pritobella School, Secondary, Primary, Pre-school,
+  Oworonshoki, Day School Lagos Nigeria, About Us, Team, Contact Us, Gallery">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style3.css">
+    <link rel="stylesheet" href="css/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="css/swipebox.css">
+    <link rel="stylesheet" href="css/jquery-ui.css" />
+	  <!--<link rel="stylesheet" href="css/form.css" />-->
+    		  <style>
+			.w3-btn {margin-bottom:10px;
+				 width:200px; margin-left:5px;}
+		</style>
+   
+  </head>
+  <header class="w3-card-4 w3-top" style="background-image: linear-gradient(rgb(141, 198, 245),rgb(240, 239, 239))">
+   <!--<div class="schname">Pritobella <span style="color: rgba(247, 243, 25, 0.986);">School</span> </div>-->
+    
+    <nav class="topnav" id="myTopnav" >
+            <span class="schn w3-xxlarge"><span style="color: rgb(16, 20, 241);" class="w3-xxlarge">DAT</span>REPORT<span class="w3-small" style="color: rgb(253, 253, 253);" >School PORTAL</span></span>
+        <!--<a href="index.html" >Home</a>
+       <a href="#">about Us</a>
+       <a href="#">service</a>
+       <a href="#">Contact</a>
+       <a href="schportal.html" class="active">School Portal</a>
+             
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i></a>-->
+      </nav>
+  </header>
+  
+  <body class="" >
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    
+    <!--Class Nafigation-->
+	  <br><br><br>
+	  <div class="w3-panel w3-blue-grey w3-round-xlarge w3-mobile" style="width:60%; margin:auto; padding:10px" id="top">
+		  <h2 style="text-align:center; font-weight: bolder;">Welcome To Gulf Flower SCHOOL PORTAL </h2>
+		  <ul style="color:white; " > 
+			  <li style="text-decoration: none;">Select a Class to perform a task</li> </ul>
+		<!-- <div class="w3-center">
+		  <button class="w3-btn w3-red w3-round-large" onclick="document.getElementById('reg1').style.display='block'" >Register A Student</button>
+		
+		  </div>-->
+		<div class="w3-modal" id="reg1">
+			<div class="w3-modal-content">
+			  <div class="w3-container w3-khaki w3-padding">
+				  <span onclick="document.getElementById('reg1').style.display='none'" class="w3-dispaly-topright w3-red" >&times;</span>
+				<div class="container right-panel-active">
+					<!-- Sign Up -->
+					<div class="container__form container--signup">
+						<form method="POST" action="https://script.google.com/macros/s/AKfycbxptPFTN5D81727taNWSjhq3E9VNmQFtFf01g_q25df/dev"  class="form" id="form1">
+							<h2 class="form__title">Register A Student</h2>
+							<!--<input type="text" placeholder="Email" class="input" />
+							<input type="email" placeholder="Name" class="input" />
+							<input type="password" placeholder="Password" class="input" />
+							<button type="submit" class="btn">Sign Up</button>-->
+
+							<input name="Email" type="email" placeholder="Email" class="input" required>
+						 	 <input name="Name" type="text" placeholder="Name" class="input" required>
+  							<button type="submit">Send</button>
+						</form>
+					</div>
+				
+					<!-- Sign In -->
+					<div class="container__form container--signin">
+						<form action="#" class="form" id="form2">
+							<h2 class="form__title">Sign In</h2>
+							<input type="email" placeholder="Email" class="input" />
+							<input type="password" placeholder="Password" class="input" />
+							<a href="#" class="link">Forgot your password?</a>
+							<button class="btn">Sign In</button>
+						</form>
+					</div>
+				
+					<!-- Overlay -->
+					<div class="container__overlay">
+						<div class="overlay">
+							<div class="overlay__panel overlay--left">
+								<button class="btn" id="signIn">Sign In</button>
+							</div>
+							<div class="overlay__panel overlay--right">
+								<button class="btn" id="signUp">Sign Up</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			  </div>
+			</div>
+	  </div>
+	  
+</div>
+	 
+	  <!--Class Container-->
+    <section class="w3-container" style="margin-top:8px; margin-bottom:5px;" id="top">
+      <div class="w3-row-padding">
+     		<!--JSS1-->   
+				<div class="w3-third w3-blue w3-button">
+          <div class="w3-panel">
+									<span class="" style="font-size: 1.2em; width:45%;">
+										<button class="w3-btn w3-khaki w3-round-large" onclick="closebutton()">Jss1</button>
+									<i class="fas fa-school" style="color: #fbfafc;" aria-hidden=""></i></span>
+							
+								<div id="id00" class="w3-panel w3-blue-gray w3-display-container w3-padding-16" style="display:none">
+											<button class="w3-btn w3-pink w3-round-large" onclick="document.getElementById('id01').style.display='block'">Jss1 Jasmine</button><br/>
+										<button class="w3-btn w3-pink w3-round-large" onclick="document.getElementById('id02').style.display='block'">Jss1 Violet</button><br/>
+										<button class="w3-btn w3-pink w3-round-large" onclick="document.getElementById('id03').style.display='block'">Jss1C</button>
+											<!--<span onclick="this.parentElement.style.display='none'" class="w3-button w3-display-topright w3-red">X</span>-->
+										</div>
+
+						<!--Js1AModal-->
+							<div class="w3-modal" id="id01">
+							<div class="w3-modal-content">
+								<div class="w3-container w3-padding w3-light-blue " style="text-align:Left; line-height:1.8;">
+									<span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright w3-red">&times;</span>
+									<h3 class="w3-panel w3-blue-gray" style="text-align:center">Select A Task <br>Jss1 Jasmine</h3>
+
+									<div class=w3-row-padding>
+									<div class="w3-panel  w3-third">
+															<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="myFunction_11()">1sterm_23/24 Records</button></span>
+												</div>
+				
+									<div class="w3-panel w3-third">
+															<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="myFunction_21()">2ndterm_23/24 Records</button></span>
+												</div>
+									<div class="w3-panel w3-third">
+															<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="myFunction_31()">3rdterm_23/24 Records</button></span>
+												</div>
+								</div>
+									<div id="j1a1sterm" class="myRecord">
+												<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Mid_Exam</a>
+													<a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+											<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Exam</a>
+												<a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p> 
+									</div>
+									<div id="j1a2ndterm" class="myRecord">
+									<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm Mid_Exam</a>
+										<a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+												<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm Examination</a>
+												<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+									</div>
+									<div id="j1a3rdterm" class="myRecord">
+										<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm Mid_Exam</a>
+										<a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+												<p><a href="https://forms.gle/5ZNSSgzLpSpX6LhK9" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm Examination</a>
+												<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+									</div>
+											
+								</div>
+							</div>
+						</div>
+						<!--JS1AModal End-->
+						
+						<!--JS1bMODAL-->
+								<div class="w3-modal" id="id02">
+									<div class="w3-modal-content">
+										<div class="w3-container w3-padding w3-light-blue " style="text-align:Left; line-height:1.8;">
+									<span onclick="document.getElementById('id02').style.display='none'" class="w3-button w3-display-topright w3-red">&times;</span>
+										<h3 class="w3-panel w3-blue-gray" style="text-align:center">Select A Task <br>Jss1 Violet</h3> 
+											<div class=w3-row-padding>
+										<div class="w3-panel  w3-third">
+																<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="myFunction_12()">1sterm_23/24 Records</button></span>
+														</div>
+					
+										<div class="w3-panel w3-third">
+																<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="myFunction_22()">2ndterm_23/24 Records</button></span>
+														</div>
+										<div class="w3-panel w3-third">
+																<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="myFunction_32()">3rdterm_23/24 Records</button></span>
+														</div>
+									</div>
+											<div id="j1b1sterm" class="myRecord">
+											<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Mid_Exam</a>
+											</a><a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+														<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Exam</a>
+															<a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+														</div>
+										<div id="j1b2ndterm" class="myRecord">  
+												<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm MidExam</a>
+											<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+											<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm Examination</a>
+												<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+											</div>
+											<div id="j1b3rdterm" class="myRecord">
+													<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm MidExam</a>
+											<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+											<p><a href="https://forms.gle/225ogvEDT5ouxUef6" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm Examination</a>
+												<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+											</div>
+												
+										</div>
+										
+									</div>
+									
+								</div>
+								<!--Js1bEnD-->
+								<!--JS1CMODAL-->
+							<div class="w3-modal" id="id03">
+								<div class="w3-modal-content">
+									<div class="w3-container w3-padding w3-light-blue " style="text-align:Left; line-height:1.8;">
+								<span onclick="document.getElementById('id03').style.display='none'" class="w3-button w3-display-topright w3-red">&times;</span>
+									<h3 class="w3-panel w3-blue-gray" style="text-align:center">Select A Task <br>Jss1 C</h3> 
+										<div class=w3-row-padding>
+									<div class="w3-panel  w3-third">
+															<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="myFunction_13()">1sterm_23/24 Records</button></span>
+												</div>
+				
+									<div class="w3-panel w3-third">
+															<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="myFunction_23()">2ndterm_23/24 Records</button></span>
+												</div>
+									<div class="w3-panel w3-third">
+															<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="myFunction_33()">3rdterm_23/24 Records</button></span>
+												</div>
+								</div>
+										<div id="j1c1sterm" class="myRecord">
+										<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Mid_Exam</a></a><a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+												<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Exam</a><a href="https://forms.gle/YBXB6r3cE4ETGirg6" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+										</div>
+										<div id="j1c2ndterm" class="myRecord">
+											<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm MidExam</a>
+										<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+													<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm Examination</a>
+													<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+										</div>
+										<div id="j1c3rdterm" class="myRecord">
+											<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm MidExam</a>
+										<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+										<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm Examination</a>
+											<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+										</div>
+									</div>
+									
+								</div>
+								
+							</div>
+							<!--JS1CEND-->
+						</div>
+				</div>
+
+							<!--JSS2-->
+							<div class="w3-third w3-light-blue w3-button">
+									<div class="w3-panel">
+										<span class="" style="font-size: 1.2em; width:45%;">
+													<button class="w3-btn w3-khaki w3-round-large" onclick="closebutton1()">Jss2</button>
+													<i class="fas fa-school" style="color: #fbfafc;" aria-hidden=""></i></span>
+										
+													<div id="id001" class="w3-panel w3-blue-gray w3-display-container w3-padding-16" style="display:none">
+														<button class="w3-btn w3-pink w3-round-large" onclick="document.getElementById('id04').style.display='block'">Jss2Jasmine</button><br/>
+														<button class="w3-btn w3-pink w3-round-large" onclick="document.getElementById('id05').style.display='block'">Jss2Violet</button><br/>
+														<button class="w3-btn w3-pink w3-round-large" onclick="document.getElementById('id06').style.display='block'">Jss2Nectarin</button>
+														<!--<span onclick="this.parentElement.style.display='none'" class="w3-button w3-display-topright w3-red">X</span>-->
+													</div>
+														<!--Js2AModal-->
+							<div class="w3-modal" id="id04">
+								<div class="w3-modal-content">
+									<div class="w3-container w3-padding w3-light-blue " style="text-align:Left; line-height:1.8;">
+										<span onclick="document.getElementById('id04').style.display='none'" class="w3-button w3-display-topright w3-red">&times;</span>
+										<h3 class="w3-panel w3-blue-gray" style="text-align:center">Select A Task <br>Jss2 Jasmine</h3>
+				
+										<div class=w3-row-padding>
+										<div class="w3-panel  w3-third">
+																<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="jss_2a1()">1sterm_23/24 Records</button></span>
+														</div>
+					
+										<div class="w3-panel w3-third">
+																<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="jss_2a2()">2ndterm_23/24 Records</button></span>
+														</div>
+										<div class="w3-panel w3-third">
+																<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="jss_2a3()">3rdterm_23/24 Records</button></span>
+														</div>
+									</div>
+										<div id="js2a1sterm" class="myRecord">
+													<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Mid_Exam</a>
+														<a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+												<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Exam</a>
+													<a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p> 
+										</div>
+										<div id="js2a2ndterm" class="myRecord">
+										<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm Mid_Exam</a>
+											<a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+													<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm Examination</a>
+													<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+										</div>
+										<div id="js2a3rdterm" class="myRecord">
+											<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm Mid_Exam</a>
+											<a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+													<p><a href="https://forms.gle/YuUJE8DnsTTmTZm97" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm Examination</a>
+													<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+										</div>
+												
+									</div>
+								</div>
+							</div>
+							<!--JS2AModal End-->
+							
+							<!--JS2bMODAL-->
+									<div class="w3-modal" id="id05">
+										<div class="w3-modal-content">
+											<div class="w3-container w3-padding w3-light-blue " style="text-align:Left; line-height:1.8;">
+										<span onclick="document.getElementById('id05').style.display='none'" class="w3-button w3-display-topright w3-red">&times;</span>
+											<h3 class="w3-panel w3-blue-gray" style="text-align:center">Select A Task <br>Jss2 Violet</h3> 
+												<div class=w3-row-padding>
+											<div class="w3-panel  w3-third">
+																	<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="jss_2b1()">1sterm_23/24 Records</button></span>
+															</div>
+						
+											<div class="w3-panel w3-third">
+																	<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="jss_2b2()">2ndterm_23/24 Records</button></span>
+															</div>
+											<div class="w3-panel w3-third">
+																	<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="jss_2b3()">3rdterm_23/24 Records</button></span>
+															</div>
+										</div>
+												<div id="j2b1sterm" class="myRecord">
+												<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Mid_Exam</a>
+												</a><a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+															<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Exam</a>
+																<a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+															</div>
+											<div id="j2b2ndterm" class="myRecord">  
+													<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm MidExam</a>
+												<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+												<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm Examination</a>
+													<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+												</div>
+												<div id="j2b3rdterm" class="myRecord">
+														<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm MidExam</a>
+												<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+												<p><a href="https://forms.gle/JfmWN4DP2AGALZvG9" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm Examination</a>
+													<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+												</div>
+													
+											</div>
+											
+										</div>
+										
+									</div>
+									<!--Js1bEnD-->
+									<!--JS2CMODAL-->
+								<div class="w3-modal" id="id06">
+									<div class="w3-modal-content">
+										<div class="w3-container w3-padding w3-light-blue " style="text-align:Left; line-height:1.8;">
+									<span onclick="document.getElementById('id06').style.display='none'" class="w3-button w3-display-topright w3-red">&times;</span>
+										<h3 class="w3-panel w3-blue-gray" style="text-align:center">Select A Task <br>Jss2 Necterin</h3> 
+											<div class=w3-row-padding>
+										<div class="w3-panel  w3-third">
+																<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="jss_2c1()">1sterm_23/24 Records</button></span>
+														</div>
+					
+										<div class="w3-panel w3-third">
+																<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="jss_2c2()">2ndterm_23/24 Records</button></span>
+														</div>
+										<div class="w3-panel w3-third">
+																<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="jss_2c3()">3rdterm_23/24 Records</button></span>
+														</div>
+									</div>
+											<div id="j2c1sterm" class="myRecord">
+											<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Mid_Exam</a></a>
+												<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+														<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Exam</a>
+															<a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+											</div>
+											<div id="j2c2ndterm" class="myRecord">
+												<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm MidExam</a>
+											<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+														<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm Examination</a>
+														<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+											</div>
+											<div id="j2c3rdterm" class="myRecord">
+												<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm MidExam</a>
+											<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+											<p><a href="https://forms.gle/fomWJDYbj26KoM5P8" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm Examination</a>
+												<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+											</div>
+										</div>
+										
+									</div>
+									
+								</div>
+								<!--JS2CEND-->
+							
+							</div>
+						</div>
+
+							<!--JSS3-->
+							<div class="w3-third w3-blue w3-button">
+								<div class="w3-panel">
+									<span class="" style="font-size: 1.2em; width:45%;">
+										<button class="w3-btn w3-khaki w3-round-large" onclick="closebutton2()">Jss3</button>
+										<i class="fas fa-school" style="color: #fbfafc;" aria-hidden=""></i></span>
+							
+										<div id="id002" class="w3-panel w3-blue-gray w3-display-container w3-padding-16" style="display:none">
+											<button class="w3-btn w3-pink w3-round-large" onclick="document.getElementById('id07').style.display='block'">Jss3A</button><br/>
+											<button class="w3-btn w3-pink w3-round-large" onclick="document.getElementById('id08').style.display='block'">Jss3B</button><br/>
+											<button class="w3-btn w3-pink w3-round-large" onclick="document.getElementById('id09').style.display='block'">Jss3C</button>
+											<!--<span onclick="this.parentElement.style.display='none'" class="w3-button w3-display-topright w3-red">X</span>-->
+										</div>
+
+											<!--Js3AModal-->
+							<div class="w3-modal" id="id07">
+								<div class="w3-modal-content">
+									<div class="w3-container w3-padding w3-light-blue " style="text-align:Left; line-height:1.8;">
+										<span onclick="document.getElementById('id07').style.display='none'" class="w3-button w3-display-topright w3-red">&times;</span>
+										<h3 class="w3-panel w3-blue-gray" style="text-align:center">Select A Task <br>Jss3 A</h3>
+				
+										<div class=w3-row-padding>
+										<div class="w3-panel  w3-third">
+																<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="jss_3a1()">1sterm_23/24 Records</button></span>
+														</div>
+					
+										<div class="w3-panel w3-third">
+																<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="jss_3a2()">2ndterm_23/24 Records</button></span>
+														</div>
+										<div class="w3-panel w3-third">
+																<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="jss_3a3()">3rdterm_23/24 Records</button></span>
+														</div>
+									</div>
+										<div id="js3a1sterm" class="myRecord">
+													<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Mid_Exam</a>
+														<a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+												<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Exam</a>
+													<a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p> 
+										</div>
+										<div id="js3a2ndterm" class="myRecord">
+										<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm Mid_Exam</a>
+											<a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+													<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm Examination</a>
+													<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+										</div>
+										<div id="js3a3rdterm" class="myRecord">
+											<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm Mid_Exam</a>
+											<a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+													<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm Examination</a>
+													<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+										</div>
+												
+									</div>
+								</div>
+							</div>
+							<!--JS3AModal End-->
+							
+							<!--JS3bMODAL-->
+									<div class="w3-modal" id="id08">
+										<div class="w3-modal-content">
+											<div class="w3-container w3-padding w3-light-blue " style="text-align:Left; line-height:1.8;">
+										<span onclick="document.getElementById('id08').style.display='none'" class="w3-button w3-display-topright w3-red">&times;</span>
+											<h3 class="w3-panel w3-blue-gray" style="text-align:center">Select A Task <br>Jss3 B</h3> 
+												<div class=w3-row-padding>
+											<div class="w3-panel  w3-third">
+																	<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="jss_3b1()">1sterm_23/24 Records</button></span>
+															</div>
+						
+											<div class="w3-panel w3-third">
+																	<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="jss_3b2()">2ndterm_23/24 Records</button></span>
+															</div>
+											<div class="w3-panel w3-third">
+																	<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="jss_3b3()">3rdterm_23/24 Records</button></span>
+															</div>
+										</div>
+												<div id="j3b1sterm" class="myRecord">
+												<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Mid_Exam</a>
+												</a><a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+															<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Exam</a>
+																<a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+															</div>
+											<div id="j3b2ndterm" class="myRecord">  
+													<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm MidExam</a>
+												<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+												<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm Examination</a>
+													<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+												</div>
+												<div id="j3b3rdterm" class="myRecord">
+														<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm MidExam</a>
+												<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+												<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm Examination</a>
+													<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+												</div>
+													
+											</div>
+											
+										</div>
+										
+									</div>
+									<!--Js3bEnD-->
+									<!--JS3CMODAL-->
+								<div class="w3-modal" id="id09">
+									<div class="w3-modal-content">
+										<div class="w3-container w3-padding w3-light-blue " style="text-align:Left; line-height:1.8;">
+									<span onclick="document.getElementById('id09').style.display='none'" class="w3-button w3-display-topright w3-red">&times;</span>
+										<h3 class="w3-panel w3-blue-gray" style="text-align:center">Select A Task <br>Jss3 C</h3> 
+											<div class=w3-row-padding>
+										<div class="w3-panel  w3-third">
+																<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="jss_3c1()">1sterm_23/24 Records</button></span>
+														</div>
+					
+										<div class="w3-panel w3-third">
+																<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="jss_3c2()">2ndterm_23/24 Records</button></span>
+														</div>
+										<div class="w3-panel w3-third">
+																<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="jss_3c3()">3rdterm_23/24 Records</button></span>
+														</div>
+									</div>
+											<div id="j3c1sterm" class="myRecord">
+											<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Mid_Exam</a></a>
+												<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+														<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Exam</a>
+															<a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+											</div>
+											<div id="j3c2ndterm" class="myRecord">
+												<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm MidExam</a>
+											<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+														<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm Examination</a>
+														<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+											</div>
+											<div id="j3c3rdterm" class="myRecord">
+												<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm MidExam</a>
+											<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+											<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm Examination</a>
+												<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+											</div>
+										</div>
+										
+									</div>
+									
+								</div>
+								<!--JS3CEND-->
+
+								
+								</div>
+        </div>
+				
+      </div>
+      <!--RowEnd-->
+      
+    </section>
+
+
+    <!--Class NavigationII-->
+    <section class="w3-container" style="margin-top: 20px; margin-bottom:5px;">
+			<div class="w3-row-padding">
+				
+				<!--SS1-->   
+			 <div class="w3-third w3-blue w3-button">
+				 <div class="w3-panel">
+								 <span class="" style="font-size: 1.2em; width:45%;">
+									 <button class="w3-btn w3-khaki w3-round-large" onclick="closebutton3()">SS1</button>
+								 <i class="fas fa-school" style="color: #fbfafc;" aria-hidden=""></i></span>
+						 
+							 <div id="id003" class="w3-panel w3-blue-gray w3-display-container w3-padding-16" style="display:none">
+										 <button class="w3-btn w3-pink w3-round-large" onclick="opsci1()">Science</button><br/>
+										 			<div class="w3-container" id="idsci1" style="display:none">
+															<button class="w3-button w3-red w3-round"  id="" onclick="document.getElementById('id010').style.display='block'" style="line-height: 5px;">SS1A_Sci</button>
+															<button class="w3-button w3-red w3-round" id="" onclick="document.getElementById('id011').style.display='block'" style="line-height: 5px;">SS1B_Sci</button>
+															<button class="w3-button w3-red w3-round" id="" onclick="document.getElementById('id012').style.display='block'"style="line-height: 5px;">SS1C_Sci</button>
+													</div>
+									 <button class="w3-btn w3-pink w3-round-large" onclick="opart1()" style="margin-top: 5px;">Art</button><br/>
+													<div class="w3-container" id="idart1" style="display:none">
+															<button class="w3-button w3-red w3-round"  id="" onclick="document.getElementById('id013').style.display='block'" style="line-height: 5px;">SS1A_Art</button>
+															<button class="w3-button w3-red w3-round" id="" onclick="document.getElementById('id014').style.display='block'" style="line-height: 5px;">SS1B_Art</button>
+															<button class="w3-button w3-red w3-round" id="" onclick="document.getElementById('id015').style.display='block'"style="line-height: 5px;">SS1C_Art</button>
+												</div>
+									 <button class="w3-btn w3-pink w3-round-large" onclick="opcom1()"style="margin-top: 5px;">Commercial</button>
+													<div class="w3-container" id="idcom1" style="display:none">
+																<button class="w3-button w3-red w3-round"  id="" onclick="document.getElementById('id016').style.display='block'" style="line-height: 5px;">SS1A_Com</button>
+																<button class="w3-button w3-red w3-round" id="" onclick="document.getElementById('id017').style.display='block'" style="line-height: 5px;">SS1B_Com</button>
+																<button class="w3-button w3-red w3-round" id="" onclick="document.getElementById('id018').style.display='block'"style="line-height: 5px;">SS1C_Com</button>
+												  </div>
+										 <!--<span onclick="this.parentElement.style.display='none'" class="w3-button w3-display-topright w3-red">X</span>-->
+									 </div>
+
+					 <!--SS1A Science_Modal-->
+						<div class="w3-modal" id="id010">
+						 <div class="w3-modal-content">
+							 <div class="w3-container w3-padding w3-light-blue " style="text-align:Left; line-height:1.8;">
+								 <span onclick="document.getElementById('id010').style.display='none'" class="w3-button w3-display-topright w3-red">&times;</span>
+								 <h3 class="w3-panel w3-blue-gray" style="text-align:center">Select A Task <br> SS1A Science </h3>
+
+								 <div class=w3-row-padding>
+								 <div class="w3-panel  w3-third">
+														 <span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_1asci1()">1sterm_23/24 Records</button></span>
+											 </div>
+			 
+								 <div class="w3-panel w3-third">
+														 <span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_1asci2()">2ndterm_23/24 Records</button></span>
+											 </div>
+								 <div class="w3-panel w3-third">
+														 <span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_1asci3()">3rdterm_23/24 Records</button></span>
+											 </div>
+							 </div>
+								 <div id="s1asci1sterm" class="myRecord">
+											 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Mid_Exam</a>
+												 <a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+										 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Exam</a>
+											 <a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p> 
+								 </div>
+								 <div id="s1asci2ndterm" class="myRecord">
+								 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm Mid_Exam</a>
+									 <a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+											 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm Examination</a>
+											 <a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+								 </div>
+								 <div id="s1asci3rdterm" class="myRecord">
+									 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm Mid_Exam</a>
+									 <a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+											 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm Examination</a>
+											 <a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+								 </div>
+										 
+							 </div>
+						 </div>
+					 </div>
+					 <!--SS1AModal End-->
+					 
+					 <!--SS1bMODAL-->
+							 <div class="w3-modal" id="id011">
+								 <div class="w3-modal-content">
+									 <div class="w3-container w3-padding w3-light-blue " style="text-align:Left; line-height:1.8;">
+								 <span onclick="document.getElementById('id011').style.display='none'" class="w3-button w3-display-topright w3-red">&times;</span>
+									 <h3 class="w3-panel w3-blue-gray" style="text-align:center">Select A Task <br>SS1 B Science</h3> 
+										 <div class=w3-row-padding>
+									 <div class="w3-panel  w3-third">
+															 <span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_1bsci1()">1sterm_23/24 Records</button></span>
+													 </div>
+				 
+									 <div class="w3-panel w3-third">
+															 <span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_1bsci2()">2ndterm_23/24 Records</button></span>
+													 </div>
+									 <div class="w3-panel w3-third">
+															 <span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_1bsci3()">3rdterm_23/24 Records</button></span>
+													 </div>
+								 </div>
+										 <div id="s1bsci1sterm" class="myRecord">
+										 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Mid_Exam</a>
+										 </a><a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+													 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Exam</a>
+														 <a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+													 </div>
+									 <div id="s1bsci2ndterm" class="myRecord">  
+											 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm MidExam</a>
+										 <a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+										 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm Examination</a>
+											 <a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+										 </div>
+										 <div id="s1bsci3rdterm" class="myRecord">
+												 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm MidExam</a>
+										 <a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+										 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm Examination</a>
+											 <a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+										 </div>
+											 
+									 </div>
+									 
+								 </div>
+								 
+							 </div>
+							 <!--Ss1bEnD-->
+
+							 <!--SS1CMODAL-->
+						 <div class="w3-modal" id="id012">
+							 <div class="w3-modal-content">
+								 <div class="w3-container w3-padding w3-light-blue " style="text-align:Left; line-height:1.8;">
+							 <span onclick="document.getElementById('id012').style.display='none'" class="w3-button w3-display-topright w3-red">&times;</span>
+								 <h3 class="w3-panel w3-blue-gray" style="text-align:center">Select A Task <br>SS1 C Science</h3> 
+									 <div class=w3-row-padding>
+								 <div class="w3-panel  w3-third">
+														 <span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_1csci1()">1sterm_23/24 Records</button></span>
+											 </div>
+			 
+								 <div class="w3-panel w3-third">
+														 <span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_1csci2()">2ndterm_23/24 Records</button></span>
+											 </div>
+								 <div class="w3-panel w3-third">
+														 <span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_1csci3()">3rdterm_23/24 Records</button></span>
+											 </div>
+							 </div>
+									 <div id="s1csci1sterm" class="myRecord">
+									 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Mid_Exam</a>
+										<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+											 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Exam</a>
+												<a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+									 </div>
+									 <div id="s1csci2ndterm" class="myRecord">
+										 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm MidExam</a>
+									 <a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+												 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm Examination</a>
+												 <a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+									 </div>
+									 <div id="s1csci3rdterm" class="myRecord">
+										 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm MidExam</a>
+									 <a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+									 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm Examination</a>
+										 <a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+									 </div>
+								 </div>
+								 
+							 </div>
+							 
+						 </div>
+						 <!--SS1C_SciEND-->
+
+						 <!--Begin_SS1Art_Modal-->
+
+						 <div class="w3-modal" id="id013">
+							<div class="w3-modal-content">
+								<div class="w3-container w3-padding w3-light-blue " style="text-align:Left; line-height:1.8;">
+									<span onclick="document.getElementById('id013').style.display='none'" class="w3-button w3-display-topright w3-red">&times;</span>
+									<h3 class="w3-panel w3-blue-gray" style="text-align:center">Select A Task <br> SS1A ART </h3>
+ 
+									<div class=w3-row-padding>
+									<div class="w3-panel  w3-third">
+															<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_1aart1()">1sterm_23/24 Records</button></span>
+												</div>
+				
+									<div class="w3-panel w3-third">
+															<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_1aart2()">2ndterm_23/24 Records</button></span>
+												</div>
+									<div class="w3-panel w3-third">
+															<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_1aart3()">3rdterm_23/24 Records</button></span>
+												</div>
+								</div>
+									<div id="s1aart1sterm" class="myRecord">
+												<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Mid_Exam</a>
+													<a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+											<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Exam</a>
+												<a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p> 
+									</div>
+									<div id="s1aart2ndterm" class="myRecord">
+									<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm Mid_Exam</a>
+										<a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+												<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm Examination</a>
+												<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+									</div>
+									<div id="s1aart3rdterm" class="myRecord">
+										<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm Mid_Exam</a>
+										<a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+												<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm Examination</a>
+												<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+									</div>
+											
+								</div>
+							</div>
+						</div>
+						<!--SS1AModal End-->
+						
+					  <!--SS1bMODAL-->
+								<div class="w3-modal" id="id014">
+									<div class="w3-modal-content">
+										<div class="w3-container w3-padding w3-light-blue " style="text-align:Left; line-height:1.8;">
+									<span onclick="document.getElementById('id014').style.display='none'" class="w3-button w3-display-topright w3-red">&times;</span>
+										<h3 class="w3-panel w3-blue-gray" style="text-align:center">Select A Task <br>SS1 B ART</h3> 
+											<div class=w3-row-padding>
+										<div class="w3-panel  w3-third">
+																<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_1bart1()">1sterm_23/24 Records</button></span>
+														</div>
+					
+										<div class="w3-panel w3-third">
+																<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_1bart2()">2ndterm_23/24 Records</button></span>
+														</div>
+										<div class="w3-panel w3-third">
+																<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_1bart3()">3rdterm_23/24 Records</button></span>
+														</div>
+									</div>
+											<div id="s1bart1sterm" class="myRecord">
+											<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Mid_Exam</a>
+											</a><a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+														<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Exam</a>
+															<a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+														</div>
+										<div id="s1bart2ndterm" class="myRecord">  
+												<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm MidExam</a>
+											<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+											<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm Examination</a>
+												<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+											</div>
+											<div id="s1bart3rdterm" class="myRecord">
+													<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm MidExam</a>
+											<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+											<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm Examination</a>
+												<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+											</div>
+												
+										</div>
+										
+									</div>
+									
+								</div>
+								<!--Ss1bEnD-->
+								
+					  <!--SS1CMODAL-->
+							<div class="w3-modal" id="id015">
+								<div class="w3-modal-content">
+									<div class="w3-container w3-padding w3-light-blue " style="text-align:Left; line-height:1.8;">
+								<span onclick="document.getElementById('id015').style.display='none'" class="w3-button w3-display-topright w3-red">&times;</span>
+									<h3 class="w3-panel w3-blue-gray" style="text-align:center">Select A Task <br>SS1 C ART</h3> 
+										<div class=w3-row-padding>
+									<div class="w3-panel  w3-third">
+															<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_1cart1()">1sterm_23/24 Records</button></span>
+												</div>
+				
+									<div class="w3-panel w3-third">
+															<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_1cart2()">2ndterm_23/24 Records</button></span>
+												</div>
+									<div class="w3-panel w3-third">
+															<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_1cart3()">3rdterm_23/24 Records</button></span>
+												</div>
+								</div>
+										<div id="s1cart1sterm" class="myRecord">
+										<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Mid_Exam</a>
+										 <a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+												<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Exam</a>
+												 <a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+										</div>
+										<div id="s1cart2ndterm" class="myRecord">
+											<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm MidExam</a>
+										<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+													<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm Examination</a>
+													<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+										</div>
+										<div id="s1cart3rdterm" class="myRecord">
+											<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm MidExam</a>
+										<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+										<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm Examination</a>
+											<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+										</div>
+									</div>
+									
+								</div>
+								
+							</div>
+
+						 <!--END_SS1ART_Modal-->
+
+
+							<!--Begin_SS1Commercial_Modal-->
+							<div class="w3-modal" id="id016">
+								<div class="w3-modal-content">
+									<div class="w3-container w3-padding w3-light-blue " style="text-align:Left; line-height:1.8;">
+										<span onclick="document.getElementById('id016').style.display='none'" class="w3-button w3-display-topright w3-red">&times;</span>
+										<h3 class="w3-panel w3-blue-gray" style="text-align:center">Select A Task <br> SS1A Commercial </h3>
+	 
+										<div class=w3-row-padding>
+										<div class="w3-panel  w3-third">
+																<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_1acom1()">1sterm_23/24 Records</button></span>
+													</div>
+					
+										<div class="w3-panel w3-third">
+																<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_1acom2()">2ndterm_23/24 Records</button></span>
+													</div>
+										<div class="w3-panel w3-third">
+																<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_1acom3()">3rdterm_23/24 Records</button></span>
+													</div>
+									</div>
+										<div id="s1acom1sterm" class="myRecord">
+													<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Mid_Exam</a>
+														<a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+												<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Exam</a>
+													<a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p> 
+										</div>
+										<div id="s1acom2ndterm" class="myRecord">
+										<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm Mid_Exam</a>
+											<a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+													<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm Examination</a>
+													<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+										</div>
+										<div id="s1acom3rdterm" class="myRecord">
+											<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm Mid_Exam</a>
+											<a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+													<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm Examination</a>
+													<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+										</div>
+												
+									</div>
+								</div>
+							</div>
+							<!--SS1AModal End-->
+							
+							<!--SS1bMODAL-->
+									<div class="w3-modal" id="id017">
+										<div class="w3-modal-content">
+											<div class="w3-container w3-padding w3-light-blue " style="text-align:Left; line-height:1.8;">
+										<span onclick="document.getElementById('id017').style.display='none'" class="w3-button w3-display-topright w3-red">&times;</span>
+											<h3 class="w3-panel w3-blue-gray" style="text-align:center">Select A Task <br>SS1 B Commercial</h3> 
+												<div class=w3-row-padding>
+											<div class="w3-panel  w3-third">
+																	<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_1bcom1()">1sterm_23/24 Records</button></span>
+															</div>
+						
+											<div class="w3-panel w3-third">
+																	<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_1bcom2()">2ndterm_23/24 Records</button></span>
+															</div>
+											<div class="w3-panel w3-third">
+																	<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_1bcom3()">3rdterm_23/24 Records</button></span>
+															</div>
+										</div>
+												<div id="s1bcom1sterm" class="myRecord">
+												<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Mid_Exam</a>
+												</a><a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+															<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Exam</a>
+																<a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+															</div>
+											<div id="s1bcom2ndterm" class="myRecord">  
+													<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm MidExam</a>
+												<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+												<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm Examination</a>
+													<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+												</div>
+												<div id="s1bcom3rdterm" class="myRecord">
+														<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm MidExam</a>
+												<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+												<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm Examination</a>
+													<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+												</div>
+													
+											</div>
+											
+										</div>
+										
+									</div>
+									<!--Ss1bEnD-->
+									
+							<!--SS1CMODAL-->
+								<div class="w3-modal" id="id018">
+									<div class="w3-modal-content">
+										<div class="w3-container w3-padding w3-light-blue " style="text-align:Left; line-height:1.8;">
+									<span onclick="document.getElementById('id018').style.display='none'" class="w3-button w3-display-topright w3-red">&times;</span>
+										<h3 class="w3-panel w3-blue-gray" style="text-align:center">Select A Task <br>SS1 C Commercial</h3> 
+											<div class=w3-row-padding>
+										<div class="w3-panel  w3-third">
+																<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_1ccom1()">1sterm_23/24 Records</button></span>
+													</div>
+					
+										<div class="w3-panel w3-third">
+																<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_1ccom2()">2ndterm_23/24 Records</button></span>
+													</div>
+										<div class="w3-panel w3-third">
+																<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_1ccom3()">3rdterm_23/24 Records</button></span>
+													</div>
+									</div>
+											<div id="s1ccom1sterm" class="myRecord">
+											<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Mid_Exam</a>
+											 <a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+													<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Exam</a>
+													 <a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+											</div>
+											<div id="s1ccom2ndterm" class="myRecord">
+												<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm MidExam</a>
+											<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+														<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm Examination</a>
+														<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+											</div>
+											<div id="s1ccom3rdterm" class="myRecord">
+												<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm MidExam</a>
+											<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+											<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm Examination</a>
+												<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+											</div>
+										</div>
+										
+									</div>
+									
+								</div>
+
+
+							<!--END_SS1Commercial_Modal-->
+
+					 </div>
+			 </div>
+
+						 <!--SS2-->
+						 <div class="w3-third w3-light-blue w3-button">
+							<div class="w3-panel">
+											<span class="" style="font-size: 1.2em; width:45%;">
+												<button class="w3-btn w3-khaki w3-round-large" onclick="closebutton4()">SS2</button>
+											<i class="fas fa-school" style="color: #fbfafc;" aria-hidden=""></i></span>
+									
+										<div id="id004" class="w3-panel w3-blue-gray w3-display-container w3-padding-16" style="display:none">
+													<button class="w3-btn w3-pink w3-round-large" onclick="opsci2()">Science</button><br/>
+																<div class="w3-container" id="idsci2" style="display:none">
+																	 <button class="w3-button w3-red w3-round"  id="" onclick="document.getElementById('id020').style.display='block'" style="line-height: 5px;">SS2A_Sci</button>
+																	 <button class="w3-button w3-red w3-round" id="" onclick="document.getElementById('id021').style.display='block'" style="line-height: 5px;">SS2B_Sci</button>
+																	 <button class="w3-button w3-red w3-round" id="" onclick="document.getElementById('id022').style.display='block'"style="line-height: 5px;">SS2C_Sci</button>
+															 </div>
+												<button class="w3-btn w3-pink w3-round-large" onclick="opart2()" style="margin-top: 5px;">Art</button><br/>
+															 <div class="w3-container" id="idart2" style="display:none">
+																	 <button class="w3-button w3-red w3-round"  id="" onclick="document.getElementById('id023').style.display='block'" style="line-height: 5px;">SS2A_Art</button>
+																	 <button class="w3-button w3-red w3-round" id="" onclick="document.getElementById('id024').style.display='block'" style="line-height: 5px;">SS2B_Art</button>
+																	 <button class="w3-button w3-red w3-round" id="" onclick="document.getElementById('id025').style.display='block'"style="line-height: 5px;">SS2C_Art</button>
+														 </div>
+												<button class="w3-btn w3-pink w3-round-large" onclick="opcom2()"style="margin-top: 5px;">Commercial</button>
+															 <div class="w3-container" id="idcom2" style="display:none">
+																		 <button class="w3-button w3-red w3-round"  id="" onclick="document.getElementById('id026').style.display='block'" style="line-height: 5px;">SS2A_Com</button>
+																		 <button class="w3-button w3-red w3-round" id="" onclick="document.getElementById('id027').style.display='block'" style="line-height: 5px;">SS2B_Com</button>
+																		 <button class="w3-button w3-red w3-round" id="" onclick="document.getElementById('id028').style.display='block'"style="line-height: 5px;">SS2C_Com</button>
+															 </div>
+													<!--<span onclick="this.parentElement.style.display='none'" class="w3-button w3-display-topright w3-red">X</span>-->
+												</div>
+		 
+								<!--SS1A Science_Modal-->
+								 <div class="w3-modal" id="id020">
+									<div class="w3-modal-content">
+										<div class="w3-container w3-padding w3-light-blue " style="text-align:Left; line-height:1.8;">
+											<span onclick="document.getElementById('id020').style.display='none'" class="w3-button w3-display-topright w3-red">&times;</span>
+											<h3 class="w3-panel w3-blue-gray" style="text-align:center">Select A Task <br> SS2A Science </h3>
+		 
+											<div class=w3-row-padding>
+											<div class="w3-panel  w3-third">
+																	<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_2asci1()">1sterm_23/24 Records</button></span>
+														</div>
+						
+											<div class="w3-panel w3-third">
+																	<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_2asci2()">2ndterm_23/24 Records</button></span>
+														</div>
+											<div class="w3-panel w3-third">
+																	<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_2asci3()">3rdterm_23/24 Records</button></span>
+														</div>
+										</div>
+											<div id="s2asci1sterm" class="myRecord">
+														<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Mid_Exam</a>
+															<a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+													<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Exam</a>
+														<a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p> 
+											</div>
+											<div id="s2asci2ndterm" class="myRecord">
+											<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm Mid_Exam</a>
+												<a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+														<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm Examination</a>
+														<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+											</div>
+											<div id="s2asci3rdterm" class="myRecord">
+												<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm Mid_Exam</a>
+												<a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+														<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm Examination</a>
+														<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+											</div>
+													
+										</div>
+									</div>
+								</div>
+								<!--SS1AModal End-->
+								
+								<!--SS1bMODAL-->
+										<div class="w3-modal" id="id021">
+											<div class="w3-modal-content">
+												<div class="w3-container w3-padding w3-light-blue " style="text-align:Left; line-height:1.8;">
+											<span onclick="document.getElementById('id021').style.display='none'" class="w3-button w3-display-topright w3-red">&times;</span>
+												<h3 class="w3-panel w3-blue-gray" style="text-align:center">Select A Task <br>SS2 B Science</h3> 
+													<div class=w3-row-padding>
+												<div class="w3-panel  w3-third">
+																		<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_2bsci1()">1sterm_23/24 Records</button></span>
+																</div>
+							
+												<div class="w3-panel w3-third">
+																		<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_2bsci2()">2ndterm_23/24 Records</button></span>
+																</div>
+												<div class="w3-panel w3-third">
+																		<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_2bsci3()">3rdterm_23/24 Records</button></span>
+																</div>
+											</div>
+													<div id="s2bsci1sterm" class="myRecord">
+													<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Mid_Exam</a>
+													</a><a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+																<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Exam</a>
+																	<a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+																</div>
+												<div id="s2bsci2ndterm" class="myRecord">  
+														<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm MidExam</a>
+													<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+													<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm Examination</a>
+														<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+													</div>
+													<div id="s2bsci3rdterm" class="myRecord">
+															<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm MidExam</a>
+													<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+													<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm Examination</a>
+														<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+													</div>
+														
+												</div>
+												
+											</div>
+											
+										</div>
+										<!--Ss1bEnD-->
+		 
+										<!--SS1CMODAL-->
+									<div class="w3-modal" id="id022">
+										<div class="w3-modal-content">
+											<div class="w3-container w3-padding w3-light-blue " style="text-align:Left; line-height:1.8;">
+										<span onclick="document.getElementById('id022').style.display='none'" class="w3-button w3-display-topright w3-red">&times;</span>
+											<h3 class="w3-panel w3-blue-gray" style="text-align:center">Select A Task <br>SS2 C Science</h3> 
+												<div class=w3-row-padding>
+											<div class="w3-panel  w3-third">
+																	<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_2csci1()">1sterm_23/24 Records</button></span>
+														</div>
+						
+											<div class="w3-panel w3-third">
+																	<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_2csci2()">2ndterm_23/24 Records</button></span>
+														</div>
+											<div class="w3-panel w3-third">
+																	<span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_2csci3()">3rdterm_23/24 Records</button></span>
+														</div>
+										</div>
+												<div id="s2csci1sterm" class="myRecord">
+												<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Mid_Exam</a>
+												 <a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+														<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Exam</a>
+														 <a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+												</div>
+												<div id="s2csci2ndterm" class="myRecord">
+													<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm MidExam</a>
+												<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+															<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm Examination</a>
+															<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+												</div>
+												<div id="s2csci3rdterm" class="myRecord">
+													<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm MidExam</a>
+												<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+												<p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm Examination</a>
+													<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+												</div>
+											</div>
+											
+										</div>
+										
+									</div>
+									<!--SS1C_SciEND-->
+		 
+									<!--Begin_SS1Art_Modal-->
+		 
+									<div class="w3-modal" id="id023">
+									 <div class="w3-modal-content">
+										 <div class="w3-container w3-padding w3-light-blue " style="text-align:Left; line-height:1.8;">
+											 <span onclick="document.getElementById('id023').style.display='none'" class="w3-button w3-display-topright w3-red">&times;</span>
+											 <h3 class="w3-panel w3-blue-gray" style="text-align:center">Select A Task <br> SS2 A ART </h3>
+			
+											 <div class=w3-row-padding>
+											 <div class="w3-panel  w3-third">
+																	 <span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_2aart1()">1sterm_23/24 Records</button></span>
+														 </div>
+						 
+											 <div class="w3-panel w3-third">
+																	 <span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_2aart2()">2ndterm_23/24 Records</button></span>
+														 </div>
+											 <div class="w3-panel w3-third">
+																	 <span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_2aart3()">3rdterm_23/24 Records</button></span>
+														 </div>
+										 </div>
+											 <div id="s2aart1sterm" class="myRecord">
+														 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Mid_Exam</a>
+															 <a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+													 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Exam</a>
+														 <a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p> 
+											 </div>
+											 <div id="s2aart2ndterm" class="myRecord">
+											 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm Mid_Exam</a>
+												 <a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+														 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm Examination</a>
+														 <a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+											 </div>
+											 <div id="s2aart3rdterm" class="myRecord">
+												 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm Mid_Exam</a>
+												 <a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+														 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm Examination</a>
+														 <a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+											 </div>
+													 
+										 </div>
+									 </div>
+								 </div>
+								 <!--SS2AModal End-->
+								 
+								 <!--SS2bMODAL-->
+										 <div class="w3-modal" id="id024">
+											 <div class="w3-modal-content">
+												 <div class="w3-container w3-padding w3-light-blue " style="text-align:Left; line-height:1.8;">
+											 <span onclick="document.getElementById('id024').style.display='none'" class="w3-button w3-display-topright w3-red">&times;</span>
+												 <h3 class="w3-panel w3-blue-gray" style="text-align:center">Select A Task <br>SS1 B ART</h3> 
+													 <div class=w3-row-padding>
+												 <div class="w3-panel  w3-third">
+																		 <span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_2bart1()">1sterm_23/24 Records</button></span>
+																 </div>
+							 
+												 <div class="w3-panel w3-third">
+																		 <span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_2bart2()">2ndterm_23/24 Records</button></span>
+																 </div>
+												 <div class="w3-panel w3-third">
+																		 <span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_2bart3()">3rdterm_23/24 Records</button></span>
+																 </div>
+											 </div>
+													 <div id="s2bart1sterm" class="myRecord">
+													 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Mid_Exam</a>
+													 </a><a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+																 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Exam</a>
+																	 <a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+																 </div>
+												 <div id="s2bart2ndterm" class="myRecord">  
+														 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm MidExam</a>
+													 <a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+													 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm Examination</a>
+														 <a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+													 </div>
+													 <div id="s2bart3rdterm" class="myRecord">
+															 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm MidExam</a>
+													 <a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+													 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm Examination</a>
+														 <a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+													 </div>
+														 
+												 </div>
+												 
+											 </div>
+											 
+										 </div>
+										 <!--Ss2bEnD-->
+										 
+								 <!--SS2CMODAL-->
+									 <div class="w3-modal" id="id025">
+										 <div class="w3-modal-content">
+											 <div class="w3-container w3-padding w3-light-blue " style="text-align:Left; line-height:1.8;">
+										 <span onclick="document.getElementById('id025').style.display='none'" class="w3-button w3-display-topright w3-red">&times;</span>
+											 <h3 class="w3-panel w3-blue-gray" style="text-align:center">Select A Task <br>SS2 C ART</h3> 
+												 <div class=w3-row-padding>
+											 <div class="w3-panel  w3-third">
+																	 <span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_2cart1()">1sterm_23/24 Records</button></span>
+														 </div>
+						 
+											 <div class="w3-panel w3-third">
+																	 <span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_2cart2()">2ndterm_23/24 Records</button></span>
+														 </div>
+											 <div class="w3-panel w3-third">
+																	 <span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_2cart3()">3rdterm_23/24 Records</button></span>
+														 </div>
+										 </div>
+												 <div id="s2cart1sterm" class="myRecord">
+												 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Mid_Exam</a>
+													<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+														 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Exam</a>
+															<a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+												 </div>
+												 <div id="s2cart2ndterm" class="myRecord">
+													 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm MidExam</a>
+												 <a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+															 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm Examination</a>
+															 <a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+												 </div>
+												 <div id="s2cart3rdterm" class="myRecord">
+													 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm MidExam</a>
+												 <a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+												 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm Examination</a>
+													 <a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+												 </div>
+											 </div>
+											 
+										 </div>
+										 
+									 </div>
+		 
+									<!--END_SS2ART_Modal-->
+		 
+		 
+									 <!--Begin_SS2Commercial_Modal-->
+									 <div class="w3-modal" id="id026">
+										 <div class="w3-modal-content">
+											 <div class="w3-container w3-padding w3-light-blue " style="text-align:Left; line-height:1.8;">
+												 <span onclick="document.getElementById('id026').style.display='none'" class="w3-button w3-display-topright w3-red">&times;</span>
+												 <h3 class="w3-panel w3-blue-gray" style="text-align:center">Select A Task <br> SS12A Commercial </h3>
+				
+												 <div class=w3-row-padding>
+												 <div class="w3-panel  w3-third">
+																		 <span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_2acom1()">1sterm_23/24 Records</button></span>
+															 </div>
+							 
+												 <div class="w3-panel w3-third">
+																		 <span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_2acom2()">2ndterm_23/24 Records</button></span>
+															 </div>
+												 <div class="w3-panel w3-third">
+																		 <span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_2acom3()">3rdterm_23/24 Records</button></span>
+															 </div>
+											 </div>
+												 <div id="s2acom1sterm" class="myRecord">
+															 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Mid_Exam</a>
+																 <a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+														 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Exam</a>
+															 <a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p> 
+												 </div>
+												 <div id="s2acom2ndterm" class="myRecord">
+												 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm Mid_Exam</a>
+													 <a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+															 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm Examination</a>
+															 <a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+												 </div>
+												 <div id="s2acom3rdterm" class="myRecord">
+													 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm Mid_Exam</a>
+													 <a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+															 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm Examination</a>
+															 <a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+												 </div>
+														 
+											 </div>
+										 </div>
+									 </div>
+									 <!--SS2AModal End-->
+									 
+									 <!--SS2bMODAL-->
+											 <div class="w3-modal" id="id027">
+												 <div class="w3-modal-content">
+													 <div class="w3-container w3-padding w3-light-blue " style="text-align:Left; line-height:1.8;">
+												 <span onclick="document.getElementById('id027').style.display='none'" class="w3-button w3-display-topright w3-red">&times;</span>
+													 <h3 class="w3-panel w3-blue-gray" style="text-align:center">Select A Task <br>SS2 B Commercial</h3> 
+														 <div class=w3-row-padding>
+													 <div class="w3-panel  w3-third">
+																			 <span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_2bcom1()">1sterm_23/24 Records</button></span>
+																	 </div>
+								 
+													 <div class="w3-panel w3-third">
+																			 <span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_2bcom2()">2ndterm_23/24 Records</button></span>
+																	 </div>
+													 <div class="w3-panel w3-third">
+																			 <span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_2bcom3()">3rdterm_23/24 Records</button></span>
+																	 </div>
+												 </div>
+														 <div id="s2bcom1sterm" class="myRecord">
+														 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Mid_Exam</a>
+														 </a><a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+																	 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Exam</a>
+																		 <a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+																	 </div>
+													 <div id="s2bcom2ndterm" class="myRecord">  
+															 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm MidExam</a>
+														 <a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+														 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm Examination</a>
+															 <a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+														 </div>
+														 <div id="s2bcom3rdterm" class="myRecord">
+																 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm MidExam</a>
+														 <a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+														 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm Examination</a>
+															 <a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+														 </div>
+															 
+													 </div>
+													 
+												 </div>
+												 
+											 </div>
+											 <!--Ss2bEnD-->
+											 
+									 <!--SS2CMODAL-->
+										 <div class="w3-modal" id="id028">
+											 <div class="w3-modal-content">
+												 <div class="w3-container w3-padding w3-light-blue " style="text-align:Left; line-height:1.8;">
+											 <span onclick="document.getElementById('id028').style.display='none'" class="w3-button w3-display-topright w3-red">&times;</span>
+												 <h3 class="w3-panel w3-blue-gray" style="text-align:center">Select A Task <br>SS2 C Commercial</h3> 
+													 <div class=w3-row-padding>
+												 <div class="w3-panel  w3-third">
+																		 <span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_2ccom1()">1sterm_23/24 Records</button></span>
+															 </div>
+							 
+												 <div class="w3-panel w3-third">
+																		 <span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_2ccom2()">2ndterm_23/24 Records</button></span>
+															 </div>
+												 <div class="w3-panel w3-third">
+																		 <span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="ss_2ccom3()">3rdterm_23/24 Records</button></span>
+															 </div>
+											 </div>
+													 <div id="s2ccom1sterm" class="myRecord">
+													 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Mid_Exam</a>
+														<a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+															 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Exam</a>
+																<a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+													 </div>
+													 <div id="s2ccom2ndterm" class="myRecord">
+														 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm MidExam</a>
+													 <a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+																 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm Examination</a>
+																 <a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+													 </div>
+													 <div id="s2ccom3rdterm" class="myRecord">
+														 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm MidExam</a>
+													 <a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+													 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm Examination</a>
+														 <a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+													 </div>
+												 </div>
+												 
+											 </div>
+											 
+										 </div>
+		 
+		 
+									 <!--END_SS1Commercial_Modal-->
+		 
+								</div>
+						</div>
+
+						 <!--SS3-->
+						 <div class="w3-third w3-blue w3-button">
+							 <div class="w3-panel">
+								 <span class="" style="font-size: 1.2em; width:45%;">
+									 <button class="w3-btn w3-khaki w3-round-large" onclick="closebutton5()">SS3</button>
+									 <i class="fas fa-school" style="color: #fbfafc;" aria-hidden=""></i></span>
+						 
+									 <div id="id005" class="w3-panel w3-blue-gray w3-display-container w3-padding-16" style="display:none">
+										 <button class="w3-btn w3-pink w3-round-large" onclick="document.getElementById('').style.display='block'">SS3A</button><br/>
+										 <button class="w3-btn w3-pink w3-round-large" onclick="document.getElementById('').style.display='block'">SS3B</button><br/>
+										 <button class="w3-btn w3-pink w3-round-large" onclick="document.getElementById('').style.display='block'">SS3C</button>
+										 <!--<span onclick="this.parentElement.style.display='none'" class="w3-button w3-display-topright w3-red">X</span>-->
+									 </div>
+
+										 <!--Js3AModal-->
+						 <div class="w3-modal" id="id07">
+							 <div class="w3-modal-content">
+								 <div class="w3-container w3-padding w3-light-blue " style="text-align:Left; line-height:1.8;">
+									 <span onclick="document.getElementById('id07').style.display='none'" class="w3-button w3-display-topright w3-red">&times;</span>
+									 <h3 class="w3-panel w3-blue-gray" style="text-align:center">Select A Task <br>Jss3 A</h3>
+			 
+									 <div class=w3-row-padding>
+									 <div class="w3-panel  w3-third">
+															 <span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="jss_3a1()">1sterm_23/24 Records</button></span>
+													 </div>
+				 
+									 <div class="w3-panel w3-third">
+															 <span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="jss_3a2()">2ndterm_23/24 Records</button></span>
+													 </div>
+									 <div class="w3-panel w3-third">
+															 <span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="jss_3a3()">3rdterm_23/24 Records</button></span>
+													 </div>
+								 </div>
+									 <div id="js3a1sterm" class="myRecord">
+												 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Mid_Exam</a>
+													 <a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+											 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Exam</a>
+												 <a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p> 
+									 </div>
+									 <div id="js3a2ndterm" class="myRecord">
+									 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm Mid_Exam</a>
+										 <a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+												 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm Examination</a>
+												 <a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+									 </div>
+									 <div id="js3a3rdterm" class="myRecord">
+										 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm Mid_Exam</a>
+										 <a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+												 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm Examination</a>
+												 <a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+									 </div>
+											 
+								 </div>
+							 </div>
+						 </div>
+						 <!--JS3AModal End-->
+						 
+						 <!--JS3bMODAL-->
+								 <div class="w3-modal" id="id08">
+									 <div class="w3-modal-content">
+										 <div class="w3-container w3-padding w3-light-blue " style="text-align:Left; line-height:1.8;">
+									 <span onclick="document.getElementById('id08').style.display='none'" class="w3-button w3-display-topright w3-red">&times;</span>
+										 <h3 class="w3-panel w3-blue-gray" style="text-align:center">Select A Task <br>Jss3 B</h3> 
+											 <div class=w3-row-padding>
+										 <div class="w3-panel  w3-third">
+																 <span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="jss_3b1()">1sterm_23/24 Records</button></span>
+														 </div>
+					 
+										 <div class="w3-panel w3-third">
+																 <span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="jss_3b2()">2ndterm_23/24 Records</button></span>
+														 </div>
+										 <div class="w3-panel w3-third">
+																 <span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="jss_3b3()">3rdterm_23/24 Records</button></span>
+														 </div>
+									 </div>
+											 <div id="j3b1sterm" class="myRecord">
+											 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Mid_Exam</a>
+											 </a><a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+														 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Exam</a>
+															 <a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+														 </div>
+										 <div id="j3b2ndterm" class="myRecord">  
+												 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm MidExam</a>
+											 <a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+											 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm Examination</a>
+												 <a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+											 </div>
+											 <div id="j3b3rdterm" class="myRecord">
+													 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm MidExam</a>
+											 <a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+											 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm Examination</a>
+												 <a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+											 </div>
+												 
+										 </div>
+										 
+									 </div>
+									 
+								 </div>
+								 <!--Js3bEnD-->
+								 <!--JS3CMODAL-->
+							 <div class="w3-modal" id="id09">
+								 <div class="w3-modal-content">
+									 <div class="w3-container w3-padding w3-light-blue " style="text-align:Left; line-height:1.8;">
+								 <span onclick="document.getElementById('id09').style.display='none'" class="w3-button w3-display-topright w3-red">&times;</span>
+									 <h3 class="w3-panel w3-blue-gray" style="text-align:center">Select A Task <br>Jss3 C</h3> 
+										 <div class=w3-row-padding>
+									 <div class="w3-panel  w3-third">
+															 <span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="jss_3c1()">1sterm_23/24 Records</button></span>
+													 </div>
+				 
+									 <div class="w3-panel w3-third">
+															 <span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="jss_3c2()">2ndterm_23/24 Records</button></span>
+													 </div>
+									 <div class="w3-panel w3-third">
+															 <span class="" style="font-size: 1.2em;"><button class="w3-button w3-khaki w3-round-xlarge" onclick="jss_3c3()">3rdterm_23/24 Records</button></span>
+													 </div>
+								 </div>
+										 <div id="j3c1sterm" class="myRecord">
+										 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Mid_Exam</a></a>
+											 <a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+													 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">1stTerm Exam</a>
+														 <a href="#" class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+										 </div>
+										 <div id="j3c2ndterm" class="myRecord">
+											 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm MidExam</a>
+										 <a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+													 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">2ndTerm Examination</a>
+													 <a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+										 </div>
+										 <div id="j3c3rdterm" class="myRecord">
+											 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm MidExam</a>
+										 <a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+										 <p><a href="#" class="w3-btn w3-black w3-round-large w3-border w3-border-white">3rdTerm Examination</a>
+											 <a href="#"class="w3-btn w3-dark-grey w3-round-large w3-border w3-border-white">View Results</a></p>
+										 </div>
+									 </div>
+									 
+								 </div>
+								 
+							 </div>
+							 <!--JS3CEND-->
+
+							 
+							 </div>
+			 			</div>
+			 
+		 </div>
+		 <!--RowEnd-->
+      
+               
+     
+    </section>
+    
+
+<!--Services Heading-->
+
+      
+      <!-- //services -->
+
+
+
+
+
+      <!---Footer 5  -->
+
+      <footer class="w3-panel w3-black" style="margin-bottom:0px">
+        <div class="w3-col l3 s12 w3-card  w3-blue w3-round w3-padding w3-margin-top" >
+					<h1 class="">Contact Us </h1>
+				</div>
+
+      <div class="w3-row-padding">
+          <div class="w3-third">
+						<address>
+							<h2 style="margin-bottom: 0;">OFFICE:</h2>
+								<p style="margin-top: 0;"><span style="color: #ffffff;">21, IDERA STREET OWORONSHOKI LAGOS</span></p>
+            
+                  </address>
+          </div>
+
+
+          <div class="w3-third">
+              <h1 style="margin-bottom: 0;">Social Media Handle</h1>
+              <span>Calibral@gmail.com</span>
+                
+          </div>
+                
+
+          <div class="w3-third">
+            <h1 style="margin-bottom: 0;"  class="">Telphone:</h1>
+            07033839573
+          </div>
+
+      </div>
+
+                <div class="w3-center" style= "margin:auto;"> <p>Copy Right Reserved by Calibral 2023 </p> 
+                  <a href="#top" class="w3-hover-white w3-card w3-padding w3-button w3-blue-grey w3-mobile"  
+									style="height: 65px; width:45%; font-size:2.5em;">DATREPORT</a>
+                </div>
+
+      </footer>
+
+      <!---Footer_End -->
+
+
+
+
+
+
+
+
+
+
+
+    <!--nav script -->
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+
+
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlider");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+      </script>
+
+
+<script>
+  var slideIndex = 1;
+  showDivs(slideIndex);
+
+  function plusDivs(n) {
+    showDivs(slideIndex +=n);
+  }
+
+  function showDivs(n){
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    x[slideIndex-1].style.display="block";
+  }
+
+</script>
+
+
+<script>
+  function on(){
+    document.getElementById("overlay").style.display ="block";
+  }
+  function off(){
+    document.getElementById("overlay").style.display ="none";
+  }
+</script>
+
+
+<script>
+  // Get the button
+  let mybutton = document.getElementById("myBtn");
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+  </script>
+
+	
+<script>
+  //CLASS NAVIGATION I
+  function myFunction2() {
+    var x = document.getElementById("s11sterm");
+	y= document.getElementById("s12ndterm");
+	n= document.getElementById("s13rdterm");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+      y.style.display ="none";
+	
+    } else {
+      x.style.display = "none";
+    }
+  }
+  </script>
+
+<script>
+  function myFunction3() {
+    var x = document.getElementById("s12ndterm");
+	  y= document.getElementById("s11sterm");
+	  n= document.getElementById("s13rdterm");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+      y.style.display ="none";
+    
+    } else {
+      x.style.display = "none";
+      }
+    
+  }
+  </script> 
+
+	  <script>
+  function myFunction_3() {
+    var x = document.getElementById("s13rdterm");
+	  y= document.getElementById("s11sterm");
+	  n= document.getElementById("s12ndterm");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+      y.style.display ="none";
+    
+    } else {
+      x.style.display = "none";
+      }
+    
+  }
+  </script> 
+ 
+<!-- js-files -->
+<script type="text/javascript" src="js/opclose.js"></script>
+<script type="text/javascript" src="js/run.js"></script>
+<script type="text/javascript" src="jsnav.js"></script>
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script> <!-- Necessary-JavaScript-File-For-Bootstrap -->
+<!-- //js-files -->
+	  <script type="text/javascript" src="js/form.js"></script>
+
+<!-- gallery popup -->
+<script src="js/jquery.swipebox.min.js"></script>
+<script type="text/javascript">
+jQuery(function($) {
+	$(".swipebox").swipebox();
+});
+</script>
+<!-- //gallery popup -->
+
+
+
+
+
+  </body>
+</html>
