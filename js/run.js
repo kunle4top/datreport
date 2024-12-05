@@ -244,6 +244,47 @@ function jss_2c3() {
   }
 }
 
+//CLASS NAVIGATION JSS2d
+function jss_2d1() {
+  var x = document.getElementById("j2d1sterm");
+  y = document.getElementById("j2d2ndterm");
+  n = document.getElementById("j2d3rdterm");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    y.style.display = "none";
+    n.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+
+function jss_2d2() {
+  var x = document.getElementById("j2d2ndterm");
+  y = document.getElementById("j2d1sterm");
+  n = document.getElementById("j2d3rdterm");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    y.style.display = "none";
+    n.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function jss_2d3() {
+  var x = document.getElementById("j2d3rdterm");
+  y = document.getElementById("j2d1sterm");
+  n = document.getElementById("j2d2ndterm");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    y.style.display = "none";
+    n.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+}
+
 //CLASS NAVIGATION JSS3A
 function jss_3a1() {
   var x = document.getElementById("js3a1sterm");
