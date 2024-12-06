@@ -326,7 +326,7 @@ function jss_3a3() {
   }
 }
 
-//CLASS NAVIGATION JSS2B
+//CLASS NAVIGATION JSS3B
 function jss_3b1() {
   var x = document.getElementById("j3b1sterm");
   y = document.getElementById("j3b2ndterm");
@@ -367,7 +367,7 @@ function jss_3b3() {
   }
 }
 
-//CLASS NAVIGATION JSS2C
+//CLASS NAVIGATION JSS3C
 function jss_3c1() {
   var x = document.getElementById("j3c1sterm");
   y = document.getElementById("j3c2ndterm");
@@ -399,6 +399,47 @@ function jss_3c3() {
   var x = document.getElementById("j3c3rdterm");
   y = document.getElementById("j3c1sterm");
   n = document.getElementById("j3c2ndterm");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    y.style.display = "none";
+    n.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+//CLASS NAVIGATION JSS3D
+function jss_3d1() {
+  var x = document.getElementById("j3d1sterm");
+  y = document.getElementById("j3d2ndterm");
+  n = document.getElementById("j3d3rdterm");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    y.style.display = "none";
+    n.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+
+function jss_3d2() {
+  var x = document.getElementById("j3d2ndterm");
+  y = document.getElementById("j3d1sterm");
+  n = document.getElementById("j3d3rdterm");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    y.style.display = "none";
+    n.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function jss_3d3() {
+  var x = document.getElementById("j3d3rdterm");
+  y = document.getElementById("j3d1sterm");
+  n = document.getElementById("j3d2ndterm");
   if (x.style.display === "none") {
     x.style.display = "block";
     y.style.display = "none";
