@@ -49,6 +49,15 @@
 				x.style.display="block";
 			}
 		}
+		function closebutton5(){
+			var x =document.getElementById("id005");
+			//x.style.display="block";
+			if(x.style.display==="block"){
+				x.style.display="none";
+			} else{
+				x.style.display="block";
+			}
+		}
 
      function opsci1(){
       var x=document.getElementById("idsci1")
@@ -104,4 +113,32 @@
 				x.style.display="block";
 			}
      }
+
+
+	 function opsci3(){
+		var x=document.getElementById("idsci3")
+		if(x.style.display==="block"){
+				  x.style.display="none";
+			  } else{
+				  x.style.display="block";
+			  }
+	   }
+  
+	   function opart3(){
+		var x=document.getElementById("idart3")
+		if(x.style.display==="block"){
+				  x.style.display="none";
+			  } else{
+				  x.style.display="block";
+			  }
+	   }
+  
+	   function opcom3(){
+		var x=document.getElementById("idcom3")
+		if(x.style.display==="block"){
+				  x.style.display="none";
+			  } else{
+				  x.style.display="block";
+			  }
+	   }
      
