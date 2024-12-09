@@ -820,7 +820,7 @@ function ss_1ccom3() {
   }
 }
 
-//==============================
+//==============SS2================
 //CLASS NAVIGATION SS2 Science A
 function ss_2asci1() {
   var x = document.getElementById("s2asci1sterm");
@@ -1191,8 +1191,380 @@ function ss_2ccom3() {
     x.style.display = "none";
   }
 }
+//-----------SS2 END-----------------
+
+//==============SS3================
+//CLASS NAVIGATION SS3 Science A
+function ss_3asci1() {
+  var x = document.getElementById("s3asci1sterm");
+  y = document.getElementById("s3asci2ndterm");
+  n = document.getElementById("s3asci3rdterm");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    y.style.display = "none";
+    n.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+}
 
 
+function ss_3asci2() {
+  var x = document.getElementById("s3asci2ndterm");
+  y = document.getElementById("s3asci1sterm");
+  n = document.getElementById("s3asci3rdterm");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    y.style.display = "none";
+    n.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function ss_3asci3() {
+  var x = document.getElementById("s3asci3rdterm");
+  y = document.getElementById("s3asci1sterm");
+  n = document.getElementById("s3asci2ndterm");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    y.style.display = "none";
+    n.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+//CLASS NAVIGATION SS3B science 
+function ss_3bsci1() {
+  var x = document.getElementById("s3bsci1sterm");
+  y = document.getElementById("s3bsci2ndterm");
+  n = document.getElementById("s3bsci3rdterm");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    y.style.display = "none";
+    n.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+
+function ss_3bsci2() {
+  var x = document.getElementById("s3bsci2ndterm");
+  y = document.getElementById("s3bsci1sterm");
+  n = document.getElementById("s3bsci3rdterm");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    y.style.display = "none";
+    n.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function ss_3bsci3() {
+  var x = document.getElementById("s3bsci3rdterm");
+  y = document.getElementById("s3bsci1sterm");
+  n = document.getElementById("s3bsci2ndterm");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    y.style.display = "none";
+    n.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+//CLASS NAVIGATION SS3C science
+function ss_3csci1() {
+  var x = document.getElementById("s3csci1sterm");
+  y = document.getElementById("s3csci2ndterm");
+  n = document.getElementById("s3csci3rdterm");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    y.style.display = "none";
+    n.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+
+function ss_3csci2() {
+  var x = document.getElementById("s3csci2ndterm");
+  y = document.getElementById("s3csci1sterm");
+  n = document.getElementById("s3csci3rdterm");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    y.style.display = "none";
+    n.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function ss_3csci3() {
+  var x = document.getElementById("s3csci3rdterm");
+  y = document.getElementById("s3csci1sterm");
+  n = document.getElementById("s3csci2ndterm");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    y.style.display = "none";
+    n.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+
+//CLASS NAVIGATION SS3 ART A
+function ss_3aart1() {
+  var x = document.getElementById("s3aart1sterm");
+  y = document.getElementById("s3aart2ndterm");
+  n = document.getElementById("s3aart3rdterm");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    y.style.display = "none";
+    n.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+
+function ss_3aart2() {
+  var x = document.getElementById("s3aart2ndterm");
+  y = document.getElementById("s3aart1sterm");
+  n = document.getElementById("s3aart3rdterm");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    y.style.display = "none";
+    n.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function ss_3aart3() {
+  var x = document.getElementById("s3aart3rdterm");
+  y = document.getElementById("s3aart1sterm");
+  n = document.getElementById("s3aart2ndterm");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    y.style.display = "none";
+    n.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+//CLASS NAVIGATION SS3B ART 
+function ss_3bart1() {
+  var x = document.getElementById("s3bart1sterm");
+  y = document.getElementById("s3bart2ndterm");
+  n = document.getElementById("s3bart3rdterm");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    y.style.display = "none";
+    n.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+
+function ss_3bart2() {
+  var x = document.getElementById("s3bart2ndterm");
+  y = document.getElementById("s3bart1sterm");
+  n = document.getElementById("s3bart3rdterm");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    y.style.display = "none";
+    n.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function ss_3bart3() {
+  var x = document.getElementById("s3bart3rdterm");
+  y = document.getElementById("s3bart1sterm");
+  n = document.getElementById("s3bart2ndterm");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    y.style.display = "none";
+    n.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+//CLASS NAVIGATION SS3C ART
+function ss_3cart1() {
+  var x = document.getElementById("s3cart1sterm");
+  y = document.getElementById("s3cart2ndterm");
+  n = document.getElementById("s3cart3rdterm");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    y.style.display = "none";
+    n.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+
+function ss_3cart2() {
+  var x = document.getElementById("s3cart2ndterm");
+  y = document.getElementById("s3cart1sterm");
+  n = document.getElementById("s3cart3rdterm");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    y.style.display = "none";
+    n.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function ss_3cart3() {
+  var x = document.getElementById("s3cart3rdterm");
+  y = document.getElementById("s3cart1sterm");
+  n = document.getElementById("s3cart2ndterm");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    y.style.display = "none";
+    n.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+
+//CLASS NAVIGATION SS3 COMMERCIAL A
+function ss_3acom1() {
+  var x = document.getElementById("s3acom1sterm");
+  y = document.getElementById("s3acom2ndterm");
+  n = document.getElementById("s3acom3rdterm");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    y.style.display = "none";
+    n.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+
+function ss_3acom2() {
+  var x = document.getElementById("s3acom2ndterm");
+  y = document.getElementById("s3acom1sterm");
+  n = document.getElementById("s3acom3rdterm");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    y.style.display = "none";
+    n.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function ss_3acom3() {
+  var x = document.getElementById("s3acom3rdterm");
+  y = document.getElementById("s3acom1sterm");
+  n = document.getElementById("s3acom2ndterm");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    y.style.display = "none";
+    n.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+//CLASS NAVIGATION SS3B commercial
+function ss_3bcom1() {
+  var x = document.getElementById("s3bcom1sterm");
+  y = document.getElementById("s3bcom2ndterm");
+  n = document.getElementById("s3bcom3rdterm");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    y.style.display = "none";
+    n.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+
+function ss_3bcom2() {
+  var x = document.getElementById("s3bcom2ndterm");
+  y = document.getElementById("s3bcom1sterm");
+  n = document.getElementById("s3bcom3rdterm");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    y.style.display = "none";
+    n.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function ss_3bcom3() {
+  var x = document.getElementById("s3bcom3rdterm");
+  y = document.getElementById("s3bcom1sterm");
+  n = document.getElementById("s3bcom2ndterm");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    y.style.display = "none";
+    n.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+//CLASS NAVIGATION SS3C COMMercal
+function ss_3ccom1() {
+  var x = document.getElementById("s3ccom1sterm");
+  y = document.getElementById("s3ccom2ndterm");
+  n = document.getElementById("s3ccom3rdterm");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    y.style.display = "none";
+    n.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+
+function ss_2ccom2() {
+  var x = document.getElementById("s3ccom2ndterm");
+  y = document.getElementById("s3ccom1sterm");
+  n = document.getElementById("s3ccom3rdterm");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    y.style.display = "none";
+    n.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function ss_3ccom3() {
+  var x = document.getElementById("s3ccom3rdterm");
+  y = document.getElementById("s3ccom1sterm");
+  n = document.getElementById("s3ccom2ndterm");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    y.style.display = "none";
+    n.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+}
+//-----------SS2 END----------------
 
 
 
