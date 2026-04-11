@@ -1166,8 +1166,8 @@ function ss_2ccom1() {
 }
 
 
-function ss_2ccom2() {
-  var x = document.getElementById("s2ccom2ndterm");
+function ss_2ccom2() { 
+  var x = document.getElementById("s2ccom2ndterm"); 
   y = document.getElementById("s2ccom1sterm");
   n = document.getElementById("s2ccom3rdterm");
   if (x.style.display === "none") {
